@@ -1,0 +1,51 @@
+div.radioData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: flex-start;
+}
+div.radioItem {
+  padding: 12px;
+  width: 350px;
+  max-width: 100%;
+  min-width: 200px;
+}
+
+div.radioItem:hover {
+  background-color: rgb(239, 239, 239);
+  transition: background-color 0.2s ease;
+}
+
+div.itemDesc {
+  color: rgb(80, 80, 80);
+  font-size: 0.75rem;
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+  max-height: 100px;
+  white-space: normal;
+}
+
+div[class^="ms-Toggle"] {
+  margin-bottom: 0px;
+}
+
+.toggleContainer {
+  position: relative;
+  width: 100%;
+}
+
+.littleButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  background-color: transparent;
+  &:hover {
+    background-color: #555;
+    color: #fff;
+  }
+}
