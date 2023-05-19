@@ -1,0 +1,68 @@
+div.actionDiv {
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+div.actionDiv:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 230, 0.1);
+  cursor: pointer;
+}
+div.actionFace {
+  text-align: center;
+  color: #605e5c;
+  margin: 20px auto;
+}
+div.actionDetail {
+  margin: 0;
+  padding: 0;
+}
+div.imgDiv {
+  background-size: unset;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  transform: scale(1.2);
+}
+div.actionText {
+  color: black;
+  margin-top: 10px;
+}
+h1.actionTitle {
+  margin: 5px 0 0 0;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+div.divDesc {
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 12px;
+  margin: 0px 2px;
+}
+div.divDate {
+  position: absolute;
+  width: 100%;
+  bottom: 5;
+  color: darkred;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+div.actionName {
+  font-size: 12px;
+}
+div.actionDate {
+  font-size: 11px;
+}
+.flipped {
+  transform: rotateY(180deg) rotateY(180deg);
+}

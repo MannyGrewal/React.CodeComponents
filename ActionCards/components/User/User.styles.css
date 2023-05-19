@@ -1,0 +1,22 @@
+div.userDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.userName {
+  font-size: 14px;
+  color: #323130;
+  font-weight: 500;
+}
+.ms-Persona {
+  display: inline-block;
+  :hover {
+    filter: grayscale(50%);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+}
